@@ -19,3 +19,26 @@
 .gallery-container:last-child{
   margin-bottom: 30px;
 }
+.pimg1
+{
+   background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("../../assets/leaf.jpg");
+  min-height:400px;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.aboutme
+{
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}

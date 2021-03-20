@@ -7,24 +7,15 @@
       <a class="nav-item nav-link" routerLink="/account/login" routerLinkActive="active" >Login</a>
       <a *ngIf="user" class="nav-item nav-link" routerLink="/gallery" routerLinkActive="active">Gallery</a>
     </div>
-    <div >
-      <div *ngIf="user" class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <div class="dropdown float right">
-              <a class="btn btn-secondary dropdown-toggle " style="color:azure" role="button" >
-                {{user.firstName}}            </a>
-
-              <ul class="dropdown-content" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" routerLink="/users">Users</a></li>
-                <li><a class="dropdown-item" routerLink="/dashboard">Dashboard</a></li>
-                <li><a class="dropdown-item" (click)="logout()">Logout</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-
-      </div>
+    <div *ngIf="user" class="dropdown pull-right">
+      <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        {{user.firstName}}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" routerLink="/users">Users</a></li>
+        <li><a class="dropdown-item" routerLink="/dashboard">Dashboard</a></li>
+        <li><a class="dropdown-item" (click)="logout()">Logout</a></li>
+      </ul>
     </div>
 
 
@@ -36,4 +27,8 @@
     <alert></alert>
     <router-outlet></router-outlet>
 </div>
+
+
+
+
 

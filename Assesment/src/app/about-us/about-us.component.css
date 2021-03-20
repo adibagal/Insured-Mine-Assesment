@@ -9,41 +9,8 @@ body, html{
 
 
 
-.logoimg
-{
-    height: 50px;
-    padding-left: 20px;
-}
 
-
-
-.navbar-nav li a
-{
-    color: white !important;
-    font-weight: 600;
-    float: right;
-    text-align: left;
-    transition: all 1s ease 0s;
-    opacity: 0.8;
-}
-
-.navbar-nav li a:hover
-{
-    border-left:2px solid #39ff14;
-    opacity: 1;
-    transform: scale(1.2);
-    border-bottom: none;
-}
-.active
-{
-    border-bottom:2px solid #39ff14;
-}
-
-/*-----------------------------------------------*/
-
-
-
-.pimg1, .pimg2, .pimg3{
+.pimg1{
   position:relative;
   background-position:center;
   background-size:cover;
@@ -60,9 +27,6 @@ body, html{
   min-height:100%;
 }
 
-.pimg2{
-  min-height:800px;
-}
 
 
 .section{
@@ -105,12 +69,6 @@ body, html{
 
 }
 
-.customerimg
-{
-    margin-top: 80px;
-    width: 600px;
-    height: 600px;
-}
 
 .clientname{
   padding-top: 50px;
@@ -137,27 +95,6 @@ body, html{
 }
 
 
-.aboutgallery
-{
-
-    margin-top: 70px;
-}
- .vertical-line
- {
-      position: absolute;
-      width: 1px;
-      background-color: white;
-      height: 100%;
-      right: 95px;
-      top: 350px;
-      border: 1 px solid white ;
-      border-radius: 2px;
-}
-.cname{
-  text-align: justify;
-  font-weight: 900px;
-  color: black
-}
 @media only screen and (max-width: 1535px) {
   #vl {
     display: none;

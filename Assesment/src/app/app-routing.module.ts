@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home';
-import { AuthGuard } from './_helpers';
+import { AuthGuard } from '@app/services';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import { GalleryComponent } from './gallery/gallery.component';
