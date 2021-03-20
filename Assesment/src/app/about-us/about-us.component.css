@@ -1,0 +1,172 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+
+
+.logoimg
+{
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+
+.navbar-nav li a
+{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    transition: all 1s ease 0s;
+    opacity: 0.8;
+}
+
+.navbar-nav li a:hover
+{
+    border-left:2px solid #39ff14;
+    opacity: 1;
+    transform: scale(1.2);
+    border-bottom: none;
+}
+.active
+{
+    border-bottom:2px solid #39ff14;
+}
+
+/*-----------------------------------------------*/
+
+
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  min-height:100%;
+}
+
+.pimg2{
+  min-height:800px;
+}
+
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:white
+}
+
+
+.aboutme
+{
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.personimg
+{
+    width: 500px;
+    height: 500px;
+}
+
+.infoaboutus
+{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.customerimg
+{
+    margin-top: 80px;
+    width: 600px;
+    height: 600px;
+}
+
+.clientname{
+  padding-top: 50px;
+  color:black;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Josefin Sans',sans-serif;
+}
+.clienttalk
+{
+    color: white;
+    font-family: 'Noto Serif', serif;
+    text-align: justify;
+    font-size: 20px;
+    word-spacing:1px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.seemyphotography
+{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+
+
+.aboutgallery
+{
+
+    margin-top: 70px;
+}
+ .vertical-line
+ {
+      position: absolute;
+      width: 1px;
+      background-color: white;
+      height: 100%;
+      right: 95px;
+      top: 350px;
+      border: 1 px solid white ;
+      border-radius: 2px;
+}
+.cname{
+  text-align: justify;
+  font-weight: 900px;
+  color: black
+}
+@media only screen and (max-width: 1535px) {
+  #vl {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 1535px) {
+
+  #gallerytext {
+    display: none;
+  }
+}
